@@ -1,3 +1,59 @@
+/* We use border-box, so the size of an element contains the padding and border.
+Sizes are in rem.  Convert pixel measure to rem by dividing by 10. */
 * {
   box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+.box {
+  height: 8rem;
+  width: 8rem;
+  border: solid darkviolet;
+  flex-shrink: 0;
+}
+
+.socialCards {
+  background-color: rgba(125, 50, 255, 0.3);
+  padding: 1.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.socialCard {
+  border: 0.1rem solid black;
+  border-radius: 1rem;
+  height: 10rem;
+  width: 22rem;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.SCHeadline {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.SCDescription {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.SCHandle {
+  font-size: 1.1rem;
+  margin: auto 0 0;
+}
+
+.SCContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
 }
