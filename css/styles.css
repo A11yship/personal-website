@@ -14,13 +14,17 @@ body {
 .box {
   height: 6rem;
   width: 6rem;
+  margin: 0.5rem;
   border: solid darkviolet;
 }
 
 .socialCards {
   background-color: rgba(125, 50, 255, 0.3);
+  padding: 1.5rem;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 .socialCard {
