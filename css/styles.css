@@ -16,3 +16,9 @@ body {
   width: 6rem;
   border: solid darkviolet;
 }
+
+.socialCards {
+  background-color: rgba(125, 50, 255, 0.3);
+  display: flex;
+  flex-flow: row wrap;
+}
