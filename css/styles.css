@@ -30,6 +30,23 @@ body {
 .socialCard {
   border: 0.1rem solid black;
   border-radius: 1rem;
+
   height: 9rem;
   width: 18rem;
+  display: flex;
+}
+
+.SCHeadline {
+  font-size: 1.6rem;
+  margin: 0.8rem 0;
+}
+
+.SCDescription {
+  font-size: 1.4rem;
+  margin: 0.7rem 0;
+}
+
+.SCHandle {
+  font-size: 1.1rem;
+  margin: 0rem 0;
 }
