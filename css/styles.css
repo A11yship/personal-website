@@ -1,3 +1,5 @@
+/* We use border-box, so the size of an element contains the padding and border.
+Sizes are in rem.  Convert pixel measure to rem by dividing by 10. */
 * {
   box-sizing: border-box;
 }
