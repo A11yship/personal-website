@@ -15,17 +15,24 @@ body {
 
 /* Header */
 
+header {
+  background-color: rgba(102, 51, 153, 0.3);
+  padding: 0.1rem;
+  border-radius: 1.5rem;
+}
+
 h1 {
   text-align: center;
-  color: rebeccapurple;
+  color: rgba(102, 51, 153, 1);
 }
 
 nav ul {
   list-style: none;
   padding: 0;
   display: flex;
-  flex-direction: row;
-  gap: 1rem;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 2rem;
 }
 
 nav ul li {
