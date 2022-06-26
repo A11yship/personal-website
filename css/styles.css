@@ -34,6 +34,13 @@ nav ul li {
   border-radius: 0.6rem;
 }
 
+nav a:link {
+  color: white;
+}
+nav a:visited {
+  color: yellow;
+}
+
 /* Social Cards */
 .box {
   height: 8rem;
