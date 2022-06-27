@@ -1,2 +1,6 @@
 /* Social Cards */
 @import url(./cards.css);
+
+.main_article {
+  padding: 10px;
+}
