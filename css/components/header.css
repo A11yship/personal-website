@@ -9,7 +9,7 @@
   color: rgba(102, 51, 153, 1);
 }
 
-nav ul {
+.header_navlist {
   list-style: none;
   padding: 0;
   display: flex;
@@ -18,15 +18,15 @@ nav ul {
   gap: 2rem;
 }
 
-nav ul li {
+.header_navlist_item {
   background-color: rebeccapurple;
   padding: 0.6rem;
   border-radius: 0.6rem;
 }
 
-nav a:link {
+.header_navlist_link:link {
   color: white;
 }
-nav a:visited {
+.header_navlist_link:visited {
   color: yellow;
 }
