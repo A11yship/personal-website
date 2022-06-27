@@ -1,17 +1,7 @@
 /* We use border-box, so the size of an element contains the padding and border.
 Sizes are in rem.  Convert pixel measure to rem by dividing by 10. */
-* {
-  box-sizing: border-box;
-}
 
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 1.6rem;
-  font-family: "Roboto", sans-serif;
-}
+@import url(base.css);
 
 /* Header */
 
