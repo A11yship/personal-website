@@ -3,6 +3,9 @@ Sizes are in rem.  Convert pixel measure to rem by dividing by 10. */
 
 /* @import url(reset.css); War bisher falsch eingebunden, muss ich nochmal anschauen*/
 @import url(base.css);
+@import url(./components/header.css);
+@import url(./components/main.css);
+@import url(./components/footer.css);
 /* Social Cards */
 @import url(./components/cards.css);
 
