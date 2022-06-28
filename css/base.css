@@ -13,3 +13,7 @@ body {
   font-family: "Roboto", sans-serif;
   padding: 10px;
 }
+
+:root {
+  --primary-color: 102, 51, 153;
+}
