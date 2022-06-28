@@ -5,6 +5,10 @@
   padding: 0 10px;
 }
 
+.headlines {
+  color: rgb(var(--primary-color));
+}
+
 .main_article {
   padding: 10px 0;
 }
